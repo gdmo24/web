@@ -15,6 +15,10 @@
          .tabla4, .tabla4 th, .tabla4 td {
             border: 1px solid black;
         }
+          .tabla5, .tabla5 th, .tabla5 td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
     </style>
 </head>
 <body>
@@ -112,6 +116,167 @@
             <th>doce</th>
         </tr>
     </table>
+     <h3>5 Título de una página</h3>
+    <table class="tabla4" style="width: 60%;">
+        <caption>Numeros del uno al doce</caption>
+        <tr>
+            <th style="width: 35%;">uno</th>
+            <th>dos</th>
+            <th style="width: 35%;">tres</th>
+        </tr>
+        <tr>
+            <th>cuatro</th>
+            <th>cinco</th>
+            <th>seis</th>
+        </tr>
+        <tr>
+            <th>siete</th>
+            <th>ocho</th>
+            <th>nueve</th>
+        </tr>
+        <tr>
+            <th>diez</th>
+            <th>once</th>
+            <th>doce</th>
+        </tr>
+    </table>
+    <h3>6 Una celda puede abarcar varias columnas de una tabla</h3>
+    <table class="tabla5" style="width: 60%;">
+        <tr>
+            <th colspan="2">uno y dos</th>
+            <th>tres</th>
+        </tr>
+        <tr>
+            <th>cuatro</th>
+            <th>cinco</th>
+            <th>seis</th>
+        </tr>
+        <tr>
+            <th>siete</th>
+            <th>ocho</th>
+            <th>nueve</th>
+        </tr>
+    </table>
+    <h3>7 Una celda puede abarcar varias filas de una tabla</h3>
+    <table class="tabla5" style="width: 60%;">
+        <tr>
+            <th rowspan="2">uno y cuatro</th>
+            <th>dos</th>
+            <th>tres</th>
+        </tr>
+        <tr>
+            
+            <th>cinco</th>
+            <th>seis</th>
+        </tr>
+        <tr>
+            <th>siete</th>
+            <th>ocho</th>
+            <th>nueve</th>
+        </tr>
+    </table>
+    <h3>8 Cabeceras de una tabla</h3>
+    <table class="tabla5">
+        <tr>
+        <th>Ciudad</th>
+        <th>Pais</th>
+        <th>Continente</th>
+        </tr>
+        <tr>
+            <td>Roma</td>
+            <td>Italia</td>
+            <td>Europa</td>
+        </tr>
+        <tr>
+            <td>El Cairo</td>
+            <td>Egipto</td>
+            <td>Africa</td>
+        </tr>
+        <tr>
+            <td>Tokio</td>
+            <td>Japón</td>
+            <td>Asia</td>
+        </tr>
+    </table>
+    <h3>9 Crea una tabla con esta estructura</h3>
+    <table class="tabla4">
+        <tr>
+            <td>Celda 1</td>
+            <td>Celda 2</td>
+        </tr>
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td>Celda3a</td>
+                        <td>Celda3b</td>
+                        <td>Celda3c</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table>
+                    <tr><td>Celda4a</td></tr>
+                    <tr><td>Celda4b</td></tr>
+                    <tr><td>Celda4c</td></tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+<h3>10 Crea una tabla con esta estructura</h3>
+    <table class="tabla4">
+  <tr>
+    <td>
+      <table>
+        <tr>
+          <td>1a</td>
+          <td>1b</td>
+        </tr>
+      </table>
+    </td>
+    <td>
+      <table>
+        <tr>
+          <td>2a</td>
+          <td>2b</td>
+        </tr>
+        <tr>
+          <td>2c</td>
+          <td>2c</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td>3a</td>
+    <td>
+      <table>
+        <tr>
+          <td>4a1</td>
+          <td>4a2</td>
+          <td>4a3</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table>
+        <tr>
+          <td>3b1</td>
+          <td>3b2</td>
+        </tr>
+        <tr>
+          <td>3b3</td>
+          <td>3b4</td>
+        </tr>
+      </table>
+    </td>
+    <td>4b</td>
+  </tr>
+</table>
+
+
     
 </body>
 </html>
